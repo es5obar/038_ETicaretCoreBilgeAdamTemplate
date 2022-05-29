@@ -1,0 +1,74 @@
+﻿/* External CSS */
+
+body {
+    background-color:gainsboro;
+}
+
+.mylabelclass {
+    color:blue;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+    hr.style-seven:before { /* Not really supposed to work, but does */
+        display: block;
+        content: "";
+        height: 30px;
+        margin-top: -31px;
+        border-style: solid;
+        border-color: black;
+        border-width: 0 0 1px 0;
+        border-radius: 20px;
+    }
+    input.myinputclass {
+      /*  width:1000px;*/
+      width: 99%;
+      border-radius: 12px;
+}
+    #mydivid {
+        background-image: url(./Resimler/Kurt.jpg);
+        background-repeat:no-repeat;
+        background-position:center;
+        background-size:800px;
+        width:100%;
+        height: 600px;
+        border-width: 1px;
+        border-style: solid;
+        border-color:burlywood;
+        padding-top:30px;
+        padding-bottom:30px;
+        text-align :center;
+    }
+        #mydivid span {
+            font-weight: bold;
+            font-size: 20px;
+            color: #A15DD6;
+        }
+        .myaclass:hover {
+            text-decoration:none;
+            color: #0000ff !important;
+            font-family: 'Comic Sans MS';
+            font-size:18px;
+            cursor:crosshair;
+        }
+        .myaclass:visited {
+            text-decoration:none;
+            color: #ff6a00;
+            font-family:'Comic Sans MS';
+            font-size:18px;
+        }
+        .myaclass:link {
+            text-decoration:none;
+            color: #ff6a00;
+            font-family:'Comic Sans MS';
+            font-size:18px;
+        }
